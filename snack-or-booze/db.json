@@ -50,6 +50,20 @@
       "description": "Tart and delicious.",
       "recipe": "Mix arugula, toasted walnuts, and thinly-sliced Parmesan cheese. Dress with lemon and olive oil.",
       "serve": "Place on tiny, precious little plates."
+    },
+    {
+      "name": "eggs",
+      "description": "poached eggs",
+      "recipe": "eggs and boiling water",
+      "serve": "great in an eggs benny",
+      "id": "qJ02D38"
+    },
+    {
+      "name": "eggs",
+      "description": "eggs",
+      "recipe": "eggs",
+      "serve": "on a plate",
+      "id": "UE1CcoF"
     }
   ]
 }
