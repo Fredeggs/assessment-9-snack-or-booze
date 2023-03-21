@@ -27,6 +27,13 @@
       "description": "Crisp!",
       "recipe": "Open can.",
       "serve": "Immediately."
+    },
+    {
+      "name": "water",
+      "description": "water",
+      "recipe": "water",
+      "serve": "water",
+      "id": "womm0rP"
     }
   ],
   "snacks": [
@@ -52,18 +59,18 @@
       "serve": "Place on tiny, precious little plates."
     },
     {
-      "name": "eggs",
-      "description": "poached eggs",
-      "recipe": "eggs and boiling water",
-      "serve": "great in an eggs benny",
-      "id": "qJ02D38"
+      "name": "skittles",
+      "description": "skittles",
+      "recipe": "skittles",
+      "serve": "skittles",
+      "id": "ivh22In"
     },
     {
       "name": "eggs",
       "description": "eggs",
       "recipe": "eggs",
-      "serve": "on a plate",
-      "id": "UE1CcoF"
+      "serve": "eggs",
+      "id": "iOIdhov"
     }
   ]
 }

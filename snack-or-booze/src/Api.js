@@ -12,7 +12,6 @@ const BASE_API_URL = "http://localhost:5000";
 class SnackOrBoozeApi {
   static async getSnacks() {
     const result = await axios.get(`${BASE_API_URL}/snacks`);
-    console.log(result);
     return result.data;
   }
 

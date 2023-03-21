@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import { useHistory } from "react-router";
 
-const NewFoodForm = ({ add }) => {
+const NewFoodForm = ({ add, setIsLoading }) => {
   const history = useHistory();
   const INITIAL_FORM_DATA = {
     name: "",
@@ -23,6 +23,8 @@ const NewFoodForm = ({ add }) => {
     await add({ ...formData });
     setFormData(INITIAL_FORM_DATA);
     history.push("/");
+    setIsLoading(true);
+    setIsLoading(false);
   };
 
   return (

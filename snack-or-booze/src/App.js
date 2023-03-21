@@ -27,7 +27,7 @@ function App() {
       setIsLoading(false);
     }
     getDrinks();
-  }, []);
+  }, [isLoading]);
 
   if (isLoading) {
     return <p>Loading &hellip;</p>;
@@ -55,7 +55,10 @@ function App() {
               <Snack items={drinks} cantFind="/drinks" />
             </Route>
             <Route path="/add">
-              <NewFoodForm add={SnackOrBoozeApi.add} />
+              <NewFoodForm
+                add={SnackOrBoozeApi.add}
+                setIsLoading={setIsLoading}
+              />
             </Route>
             <Route>
               <p>Hmmm. I can't seem to find what you want.</p>
